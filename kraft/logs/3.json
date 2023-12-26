@@ -1,0 +1,83 @@
+{
+    "RegisterBrokerRecords": {
+        "BrokerLogs": {
+            "0": [
+                {
+                    "internalUUID": "30140601-04f8-4229-a063-195696c6b535",
+                    "brokerId": 0,
+                    "brokerHost": "localhost",
+                    "brokerPort": "9999",
+                    "securityProtocol": "Telnet",
+                    "brokerStatus": "ALIVE",
+                    "rackId": 0,
+                    "epoch": 0,
+                    "lastUpdatedTimeStamp": "2023-11-21T02:48:25.837004"
+                }
+            ]
+        },
+        "GlobalLogs": [
+            {
+                "internalUUID": "30140601-04f8-4229-a063-195696c6b535",
+                "brokerId": 0,
+                "brokerHost": "localhost",
+                "brokerPort": "9999",
+                "securityProtocol": "Telnet",
+                "brokerStatus": "ALIVE",
+                "rackId": 0,
+                "epoch": 0,
+                "lastUpdatedTimeStamp": "2023-11-21T02:48:25.837004"
+            }
+        ],
+        "BrokerInformation": {
+            "0": {
+                "internalUUID": "30140601-04f8-4229-a063-195696c6b535",
+                "brokerId": 0,
+                "brokerHost": "localhost",
+                "brokerPort": "9999",
+                "securityProtocol": "Telnet",
+                "brokerStatus": "ALIVE",
+                "rackId": 0,
+                "epoch": 0,
+                "lastUpdatedTimeStamp": "2023-11-21T02:48:25.837004"
+            }
+        }
+    },
+    "TopicRecords": {
+        "Topics": {
+            "Likes on Instagram Posts": "3f4ba9f7-d5bd-4ab4-a838-c7686519a271"
+        },
+        "TopicRecords": [
+            {
+                "type": "metadata",
+                "name": "TopicRecord",
+                "fields": {
+                    "topicUUID": "3f4ba9f7-d5bd-4ab4-a838-c7686519a271",
+                    "name": "Likes on Instagram Posts"
+                },
+                "timestamp": "2023-11-21T02:48:27.645101"
+            }
+        ]
+    },
+    "PartitionRecords": {
+        "Partitions": {},
+        "PartitionRecords": []
+    },
+    "ProducerRecords": {
+        "Producers": {
+            "0": "PRODUCER"
+        },
+        "ProducerRecords": [
+            {
+                "type": "metadata",
+                "name": "ProducerIdsRecord",
+                "fields": {
+                    "brokerId": 0,
+                    "brokerEpoch": 0,
+                    "producerId": 0
+                },
+                "timestamp": "2023-11-21T02:48:29.648161"
+            }
+        ]
+    },
+    "LastUpdatedTimeStamp": "2023-11-21T02:48:29.648161"
+}

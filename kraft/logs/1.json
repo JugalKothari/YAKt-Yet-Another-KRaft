@@ -1,0 +1,20 @@
+{
+    "RegisterBrokerRecords": {
+        "BrokerLogs": {},
+        "GlobalLogs": [],
+        "BrokerInformation": {}
+    },
+    "TopicRecords": {
+        "Topics": {},
+        "TopicRecords": []
+    },
+    "PartitionRecords": {
+        "Partitions": {},
+        "PartitionRecords": []
+    },
+    "ProducerRecords": {
+        "Producers": {},
+        "ProducerRecords": []
+    },
+    "LastUpdatedTimeStamp": ""
+}

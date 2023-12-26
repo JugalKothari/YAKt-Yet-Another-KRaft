@@ -1,0 +1,122 @@
+{
+    "RegisterBrokerRecords": {
+        "BrokerLogs": {
+            "0": [
+                {
+                    "internalUUID": "9174791b-149a-4384-9c0c-9807e863b518",
+                    "brokerId": 0,
+                    "brokerHost": "localhost",
+                    "brokerPort": "8000",
+                    "securityProtocol": "PLAINTEXT",
+                    "brokerStatus": "ALIVE",
+                    "rackId": 0,
+                    "epoch": 0,
+                    "lastUpdatedTimeStamp": "2023-11-21T02:27:00.143167"
+                },
+                {
+                    "internalUUID": "9174791b-149a-4384-9c0c-9807e863b518",
+                    "brokerId": 0,
+                    "brokerHost": "localhost",
+                    "brokerPort": "8000",
+                    "securityProtocol": "PLAINTEXT",
+                    "brokerStatus": "ALIVE",
+                    "rackId": 0,
+                    "epoch": 1,
+                    "lastUpdatedTimeStamp": "2023-11-21T02:27:06.176833"
+                }
+            ]
+        },
+        "GlobalLogs": [
+            {
+                "internalUUID": "9174791b-149a-4384-9c0c-9807e863b518",
+                "brokerId": 0,
+                "brokerHost": "localhost",
+                "brokerPort": "8000",
+                "securityProtocol": "PLAINTEXT",
+                "brokerStatus": "ALIVE",
+                "rackId": 0,
+                "epoch": 0,
+                "lastUpdatedTimeStamp": "2023-11-21T02:27:00.143167"
+            },
+            {
+                "internalUUID": "9174791b-149a-4384-9c0c-9807e863b518",
+                "brokerId": 0,
+                "brokerHost": "localhost",
+                "brokerPort": "8000",
+                "securityProtocol": "PLAINTEXT",
+                "brokerStatus": "ALIVE",
+                "rackId": 0,
+                "epoch": 1,
+                "lastUpdatedTimeStamp": "2023-11-21T02:27:06.176833"
+            }
+        ],
+        "BrokerInformation": {
+            "0": {
+                "internalUUID": "9174791b-149a-4384-9c0c-9807e863b518",
+                "brokerId": 0,
+                "brokerHost": "localhost",
+                "brokerPort": "8000",
+                "securityProtocol": "PLAINTEXT",
+                "brokerStatus": "ALIVE",
+                "rackId": 0,
+                "epoch": 1,
+                "lastUpdatedTimeStamp": "2023-11-21T02:27:06.176833"
+            }
+        }
+    },
+    "TopicRecords": {
+        "Topics": {
+            "Likes on Instagram Posts": "fcb6c656-9353-46ba-89fd-3d2d0ebde147"
+        },
+        "TopicRecords": [
+            {
+                "type": "metadata",
+                "name": "TopicRecord",
+                "fields": {
+                    "topicUUID": "fcb6c656-9353-46ba-89fd-3d2d0ebde147",
+                    "name": "Likes on Instagram Posts"
+                },
+                "timestamp": "2023-11-21T02:27:02.577248"
+            }
+        ]
+    },
+    "PartitionRecords": {
+        "Partitions": {},
+        "PartitionRecords": [],
+        "0": [
+            {
+                "type": "metadata",
+                "name": "PartitionRecord",
+                "fields": {
+                    "partitionId": 0,
+                    "topicUUID": "",
+                    "replicas": [],
+                    "ISR": [],
+                    "removingReplicas": [],
+                    "addingReplicas": [],
+                    "leader": "localhost:1000",
+                    "partitionEpoch": 0
+                },
+                "timestamp": "2023-11-21T02:27:07.970605"
+            }
+        ]
+    },
+    "ProducerRecords": {
+        "Producers": {
+            "0": "PRODUCER"
+        },
+        "ProducerRecords": [
+            {
+                "type": "metadata",
+                "name": "ProducerIdsRecord",
+                "fields": {
+                    "brokerId": 0,
+                    "brokerEpoch": 0,
+                    "producerId": 0
+                },
+                "timestamp": "2023-11-21T02:27:04.434163"
+            }
+        ]
+    },
+    "LastUpdatedTimeStamp": "2023-11-21T02:27:07.970605"
+}
